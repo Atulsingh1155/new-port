@@ -15,10 +15,13 @@ import {
   git,
   figma,
   docker,
+  aicade,
   meta,
   starbucks,
   tesla,
   shopify,
+  freelance,
+  ongo,
   carrent,
   jobit,
   tripguide,
@@ -46,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Game Developer",
     icon: mobile,
   },
   {
@@ -116,91 +119,80 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Game Developer Intern",
+    company_name: "Aicade",
+    icon: aicade, // Replace with your Aicade logo/icon
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023 - Sept 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained 2D/3D games using Phaser.js and JavaScript.",
+      "Collaborated with artists and designers to deliver visually appealing gameplay experiences.",
+      "Optimized game performance and handled state management across different game levels.",
+      "Integrated sound effects, animations, and responsive UI to enhance player engagement."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "ON GO",
+    icon: ongo, // Replace with your ON GO logo/icon
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built web applications using React.js and TypeScript with backend integration.",
+      "Worked on AI-powered components to improve personalization and automation.",
+      "Implemented REST APIs and managed state with Redux for scalable frontend behavior.",
+      "Collaborated in Agile sprints, handling both development and testing tasks."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Freelance Web & Game Developer",
+    company_name: "Self-Employed",
+    icon: freelance, // You can use a generic freelance icon here
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and developing full-stack web apps using React, Node.js, and MongoDB.",
+      "Creating interactive browser-based games and AI/ML features for client projects.",
+      "Leveraging tools like TensorFlow, scikit-learn for integrating smart features.",
+      "Delivering responsive, user-friendly interfaces with modern UI libraries."
     ],
   },
 ];
 
+
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Atul's technical brilliance and dedication impressed me. His work on intelligent systems shows great potential for solving real-world challenges.",
+    name: "Amitanshu Pattanaik",
+    designation: "Senior Scientist",
+    company: "DRDO",
+    image: "https://randomuser.me/api/portraits/men/11.jpg", // Replace with real image if available
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Atul was one of the most talented developers at Aicade. His creativity and commitment to game development helped shape several of our core projects.",
+    name: "Pushkar",
+    designation: "Founder",
+    company: "Aicade",
+    image: "https://randomuser.me/api/portraits/men/12.jpg", // Replace with real image if available
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Atul does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
+
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bike Rent",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage Bike rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
@@ -216,50 +208,73 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://atulsingh1155.github.io/Bike-rental-website/",
   },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+ {
+  name: "Parlour Wallah",
+  description:
+    "A modern web platform that connects customers with nearby barber shops. Users can view available barbers, check timings, and book appointments online with ease. The platform also allows barbers to register their shops and manage their schedules.",
+  tags: [
+    {
+      name: "typescript",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "nodejs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwindcss",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: jobit, // replace with your image variable
+  source_code_link: "https://parlourwallahbackend.onrender.com/", // add your actual repo link
+},
+
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
+ {
+  name: "Waste Prediction for Floods ans Earthquake",
+  description:
+    "An AI-powered web application designed to forecast disaster-induced waste in mountainous regions. It uses historical data and machine learning algorithms to predict the volume of waste, helping local authorities plan effective cleanup and resource allocation.",
+  tags: [
+    {
+      name: "python",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "tensorflow",
+      color: "green-text-gradient",
+    },
+    {
+      name: "data-visualization",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: tripguide, // replace with your image variable
+  source_code_link: "https://github.com/", // add your actual repo link
+},
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
