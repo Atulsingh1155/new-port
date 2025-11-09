@@ -26,6 +26,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  unrealgame,
 } from "../assets";
 
 export const navLinks = [
@@ -274,6 +275,27 @@ const projects = [
   image: tripguide, // replace with your image variable
   source_code_link: "https://github.com/", // add your actual repo link
 },
+ {
+    name: "3D Adventure Game",
+    description:
+      "An immersive 3D adventure game built with Unreal Engine 5, featuring dynamic environments, advanced physics, and engaging gameplay mechanics. Players explore a rich world with custom character interactions and combat systems.",
+    tags: [
+      {
+        name: "unrealengine",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "c++",
+        color: "green-text-gradient",
+      },
+      {
+        name: "blueprints",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: unrealgame,
+    source_code_link: "https://drive.google.com/drive/folders/1LUstloRuUuf8ZuzQheGyGL-NZ4CbX_uc?usp=sharing",
+  },
 
 ];
 

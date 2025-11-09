@@ -32,6 +32,7 @@ import ongo from "./company/ongo.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import unrealgame from "./unrealgame.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   tripguide,
   freelance,
   ongo,
+  unrealgame,
 };
