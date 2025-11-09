@@ -27,6 +27,7 @@ import {
   tripguide,
   threejs,
   unrealgame,
+  escapeplace,
 } from "../assets";
 
 export const navLinks = [
@@ -296,6 +297,28 @@ const projects = [
     image: unrealgame,
     source_code_link: "https://drive.google.com/drive/folders/1LUstloRuUuf8ZuzQheGyGL-NZ4CbX_uc?usp=sharing",
   },
+  {
+    name: "Escape the Place",
+    description:
+      "A thrilling escape room game built with Unreal Engine 5, featuring puzzle-solving mechanics, atmospheric environments, and interactive objects. Players must use their wit to solve mysteries and escape challenging scenarios.",
+    tags: [
+      {
+        name: "unrealengine",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "blueprints",
+        color: "green-text-gradient",
+      },
+      {
+        name: "leveldesign",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: escapeplace,
+    source_code_link: "https://drive.google.com/drive/folders/1LUstloRuUuf8ZuzQheGyGL-NZ4CbX_uc?usp=sharing",
+  },
+  
 
 ];
 
