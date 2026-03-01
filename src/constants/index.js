@@ -210,27 +210,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "VLC Media Player - Privacy Enhancement",
-    description:
-      "Major open source contribution to VLC Media Player, implementing a 'Clear History' feature for network URL dialog. Successfully merged pull request that enhances user privacy for millions of VLC users worldwide by addressing NSFW URL history concerns.",
-    tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Qt",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Open Source",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://code.videolan.org/Atul010/vlc/-/merge_requests/1",
-  },
-  {
     name: "Bike Rental Platform",
     description:
       "Enterprise-grade web platform enabling users to search, book, and manage bike rentals from multiple providers. Features real-time availability, secure payment integration, and comprehensive admin dashboard for fleet management.",
