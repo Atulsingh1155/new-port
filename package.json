@@ -1,7 +1,8 @@
 {
-  "name": "3dfolio",
+  "name": "atul-singh-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
+  "description": "Professional 3D Portfolio showcasing Full-Stack Development and VLC Open Source Contributions",
   "type": "module",
   "scripts": {
     "dev": "vite",

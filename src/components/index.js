@@ -8,6 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Terminal from "./Terminal";
+import VLCContribution from "./VLCContribution";
 
 
 export {
@@ -20,6 +22,8 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
+  Terminal,
+  VLCContribution,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 

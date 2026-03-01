@@ -12,32 +12,25 @@ const FeedbackCard = ({
   name,
   designation,
   company,
-  image,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    className='bg-black border border-gray-600 p-4 sm:p-6 lg:p-8 rounded-lg hover:border-gray-400 transition-all duration-300 w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-1rem)]'
   >
-    <p className='text-white font-black text-[48px]'>"</p>
+    <div className='text-gray-400 text-2xl mb-4 font-mono'>❝</div>
 
-    <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
+    <div>
+      <p className='text-gray-300 tracking-wide text-[16px] leading-relaxed font-mono italic'>{testimonial}</p>
 
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
+      <div className='mt-6 border-t border-gray-600/30 pt-4'>
+        <div className='flex flex-col'>
+          <p className='text-white font-medium text-[14px] font-mono'>
+            <span className='text-gray-400'>></span> {name}
           </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
+          <p className='mt-1 text-gray-400 text-[12px] font-mono'>
+            {designation} @ {company}
           </p>
         </div>
-
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
       </div>
     </div>
   </motion.div>
@@ -45,18 +38,25 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+    <div className={`bg-black-100 rounded-[20px] feedbacks-section`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-black border border-gray-600 rounded-2xl ${styles.padding} min-h-[250px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={`${styles.sectionSubText} font-mono`}>peer_reviews</p>
+          <h2 className={`${styles.sectionHeadText} font-mono`}>./feedback</h2>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+      <div className={`-mt-16 pb-8 ${styles.paddingX} flex flex-wrap gap-4 lg:gap-7`}>
         {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+          <FeedbackCard 
+            key={testimonial.name} 
+            index={index} 
+            testimonial={testimonial.testimonial}
+            name={testimonial.name}
+            designation={testimonial.designation}
+            company={testimonial.company}
+          />
         ))}
       </div>
     </div>

@@ -15,8 +15,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={`${styles.sectionSubText} font-mono`}>ping -c 1</p>
+        <h3 className={`${styles.sectionHeadText} font-mono`}>./contact</h3>
 
         <div className='mt-12 flex flex-col gap-8'>
           {/* Email Contact */}
@@ -47,12 +47,12 @@ const Contact = () => {
           <div className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Twitter</span>
             <a
-              href="https://x.com/ThakurAtulPrat5"
+              href="https://x.com/AtulPratapSingh"
               target="_blank"
               rel="noopener noreferrer"
               className='bg-tertiary py-4 px-6 text-white rounded-lg font-medium hover:bg-secondary transition-colors duration-300'
             >
-              @ThakurAtulPrat5
+              @AtulPratapSingh
             </a>
           </div>
 
