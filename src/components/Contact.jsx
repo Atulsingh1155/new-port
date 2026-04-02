@@ -47,12 +47,12 @@ const Contact = () => {
           <div className='flex flex-col'>
             <span className='text-white font-medium mb-2 md:mb-4 font-mono'>Twitter</span>
             <a
-              href="https://x.com/AtulPratapSingh"
+              href="https://x.com/ThakurAtulPrat5"
               target="_blank"
               rel="noopener noreferrer"
               className='bg-black border border-gray-600 py-3 md:py-4 px-4 md:px-6 text-white rounded-lg font-mono hover:border-white transition-all duration-300'
             >
-              @AtulPratapSingh
+              @ThakurAtulPrat5
             </a>
           </div>
 

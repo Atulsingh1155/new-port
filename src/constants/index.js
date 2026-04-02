@@ -37,7 +37,7 @@ export const navLinks = [
   },
   {
     id: "vlc-contribution",
-    title: "VLC Contribution",
+    title: "Open Source",
   },
   {
     id: "work",
